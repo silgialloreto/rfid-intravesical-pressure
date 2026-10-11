@@ -1,0 +1,15 @@
+FeatureKeywords:string:SMatrix:DSNBWC:16, monitor:farfield:single freq, modeler:model:anchorpoints, modeler:load:fullloading, meshloading:problem_class_only, la:macromodel, modeler:model:anchorpoints:saving, DELETERESULTS:M0P0, model:layerstacking:automatic, mesh::background::boolean, mesh:workflow:LegacyInput_from_CST_Studio_2020, mesh:workflow:nru, mesh:workflow:boolean, mesh:workflow:boolean:advanced, mesh::attributes:rstepw, mesh:lib:blsurf, solver:hf:fd:task:1, monitor:resultfilemap:load, mesh:tet:adaptive:anisotropicedge, source:discrete face port, solver:hf:fd:meshenhancement, la:iterative, la:precond:pdss7, DenseInitDangerousDim, la:parallel_excitation:block, monitor:resultfilemap:save, CSolverControl:progress:nullptr, modeler:model:anchorpoints:loading, modeler:load:fastloading, solver:hf:fd:task:15, solver:hf:fd:sweep:convchecknoold, solver:hf:fd:sweep:convchecktask, DELETERESULTS:M000, solver:pp:farfield:tet:usesurfacefields, monitor:scaling:peak, mesh:tet:adaptive:fsample:recalc, solver:hf:fd:samples:6, background:normal, boundary:expanded open:xmax, boundary:expanded open:xmin, boundary:expanded open:ymax, boundary:expanded open:ymin, boundary:expanded open:zmax, boundary:expanded open:zmin, boundary:open:ConvPML, lineqssolver:setting:acceleratedrestart, material:SI:generalized model, material:SI:lossy metal, material:disp:eps, material:disp:modelnth, material:rho, mesh:tet, mesh:tet:autocurvature, mesh:tet:curved, mesh:tet:curved:3, monitor:3D:freq, monitor:e-field, monitor:h-field, monitor:power:1d, monitor:surface current density, solver:hf:fd, solver:hf:fd:generalpurpose:tet, solver:hf:fd:order:2, solver:hf:fd:portloss, source:discrete edge port:s-parameter, source:discrete face port:s-parameter, units:Capacitance:F, units:Conductance:S, units:Current:A, units:Frequency:MHz, units:Inductance:H, units:Length:mm, units:Resistance:Ohm, units:Temperature:Kelvin, units:Time:ns, units:Voltage:V, solver:pp:sparameter:sensitivityanalysis, solver:pp:sparameter:basicbranch, solver:pp:sparameter:unnorm, solver:pp:sparameter:calcyz, solver:pp:sparameter:calcvswr, solver:pp:sparameter:updatebalance, TABLE:UNIT_CHECK:WRITE, acceleration:cpu:1, acceleration:mpi:0, lineqssolver:setting:auto, lineqssolver:setting:treecotree, mesh:tet:adaptive
+LastWorkflowState:string:tetmesh:success
+solver_hf_tet_fd/InitialFreePhysicalInMB:int:6618
+solver_hf_tet_fd/MaxResidentSizeInMB:int:3004
+solver_hf_tet_fd/MaxResidentSizeMiB:int:2844
+solver_hf_tet_fd/MinFreePhysicalInMB:int:4355
+solver_pp/InitialFreePhysicalInMB:int:7344
+solver_pp/MaxResidentSizeInMB:int:32
+solver_pp/MaxResidentSizeMiB:int:14
+solver_pp/MinFreePhysicalInMB:int:7332
+tetmesh/InitialFreePhysicalInMB:int:6694
+tetmesh/MaxResidentSizeInMB:int:129
+tetmesh/MaxResidentSizeMiB:int:109
+tetmesh/MinFreePhysicalInMB:int:6579
+---

@@ -1,0 +1,48 @@
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1/Patch1:silicon")
+          .SetMeshType "All" 
+          .Set "Transform", "1", "0", "0", "0", "6.12323e-17", "-1", "0", "1", "6.12323e-17" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1/Patch1:solid1")
+          .SetMeshType "All" 
+          .Set "Transform", "0", "0", "1", "1", "6.12323e-17", "0", "-6.12323e-17", "1", "0" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1/Patch1:solid1_1")
+          .SetMeshType "All" 
+          .Set "Transform", "0", "0", "1", "1", "6.12323e-17", "0", "-6.12323e-17", "1", "0" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1/Patch1:substrate")
+          .SetMeshType "All" 
+          .Set "Transform", "0", "0", "1", "1", "6.12323e-17", "0", "-6.12323e-17", "1", "0" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1/Patch1:strip")
+          .SetMeshType "All" 
+          .Set "Transform", "0", "0", "1", "1", "6.12323e-17", "0", "-6.12323e-17", "1", "0" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1/Patch1:strip_1")
+          .SetMeshType "All" 
+          .Set "Transform", "0", "0", "1", "1", "6.12323e-17", "0", "-6.12323e-17", "1", "0" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1:incaps_bottom")
+          .SetMeshType "All" 
+          .Set "Transform", "1", "0", "0", "0", "6.12323e-17", "-1", "0", "1", "6.12323e-17" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1:incaps")
+          .SetMeshType "All" 
+          .Set "Transform", "1", "0", "0", "0", "6.12323e-17", "-1", "0", "1", "6.12323e-17" 
+     End With
+End With

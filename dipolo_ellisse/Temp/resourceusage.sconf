@@ -1,0 +1,15 @@
+FeatureKeywords:string:SMatrix:DSNBWC:16, monitor:farfield:single freq, modeler:model:anchorpoints, modeler:load:fullloading, meshloading:problem_class_only, la:macromodel, modeler:picking:bwc:floppick, modeler:variables:rebuild, modeler:variables:fastrebuild, modeler:model:anchorpoints:saving, front:parametersweep, DELETERESULTS:M0P0, model:layerstacking:automatic, mesh::background::boolean, mesh:workflow:LegacyInput_from_CST_Studio_2020, mesh:workflow:nru, mesh:workflow:boolean, mesh:workflow:boolean:advanced, mesh:lib:blsurf, solver:hf:fd:task:1, monitor:resultfilemap:load, mesh:tet:adaptive:anisotropicedge, solver:hf:fd:meshenhancement, la:iterative, la:precond:pdss7, la:parallel_excitation:block, monitor:resultfilemap:save, solver:pp:farfield:tet:usesurfacefields, monitor:scaling:peak, mesh:tet:adaptive:fsample:recalc, solver:hf:fd:samples:6, background:normal, boundary:expanded open:xmax, boundary:expanded open:xmin, boundary:expanded open:ymax, boundary:expanded open:ymin, boundary:expanded open:zmax, boundary:expanded open:zmin, boundary:open:ConvPML, material:SI:generalized model, material:SI:lossy metal, material:disp:eps, material:disp:modelnth, material:rho, mesh:tet, mesh:tet:autocurvature, mesh:tet:curved, mesh:tet:curved:3, monitor:3D:freq, monitor:e-field, monitor:h-field, monitor:power:1d, monitor:surface current density, solver:hf:fd, solver:hf:fd:generalpurpose:tet, solver:hf:fd:order:2, solver:hf:fd:portloss, source:discrete edge port:s-parameter, units:Capacitance:F, units:Conductance:S, units:Current:A, units:Frequency:MHz, units:Inductance:H, units:Length:mm, units:Resistance:Ohm, units:Temperature:Kelvin, units:Time:ns, units:Voltage:V, solver:pp:sparameter:sensitivityanalysis, solver:pp:sparameter:basicbranch, solver:pp:sparameter:unnorm, solver:pp:sparameter:calcyz, solver:pp:sparameter:calcvswr, solver:pp:sparameter:updatebalance, acceleration:cpu:1, acceleration:mpi:0, lineqssolver:setting:acceleratedrestart, lineqssolver:setting:auto, lineqssolver:setting:treecotree, mesh:tet:adaptive, DELETERESULTS:M000, DenseInitDangerousDim, TABLE:UNIT_CHECK:WRITE, plotting:1d:export_bitmap, plotting:1d:cartesian
+LastWorkflowState:string:tetmesh:success
+solver_hf_tet_fd/InitialFreePhysicalInMB:int:7614
+solver_hf_tet_fd/MaxResidentSizeInMB:int:2787
+solver_hf_tet_fd/MaxResidentSizeMiB:int:2896
+solver_hf_tet_fd/MinFreePhysicalInMB:int:4881
+solver_pp/InitialFreePhysicalInMB:int:8013
+solver_pp/MaxResidentSizeInMB:int:32
+solver_pp/MaxResidentSizeMiB:int:16
+solver_pp/MinFreePhysicalInMB:int:7996
+tetmesh/InitialFreePhysicalInMB:int:7468
+tetmesh/MaxResidentSizeInMB:int:137
+tetmesh/MaxResidentSizeMiB:int:117
+tetmesh/MinFreePhysicalInMB:int:7445
+---

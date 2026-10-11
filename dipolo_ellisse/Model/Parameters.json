@@ -1,0 +1,110 @@
+{
+    "parameters": [
+        {
+            "expr": "93.5",
+            "name": "skin_radius",
+            "value": "93.5"
+        },
+        {
+            "expr": "3e11",
+            "name": "c0",
+            "value": "3e11"
+        },
+        {
+            "expr": "915e6",
+            "name": "f0",
+            "value": "915e6"
+        },
+        {
+            "expr": "c0/f0",
+            "name": "lambda0",
+            "value": "327.868852459016"
+        },
+        {
+            "expr": "41.5",
+            "name": "urine_radius",
+            "value": "41.5"
+        },
+        {
+            "expr": "27",
+            "name": "L",
+            "value": "27"
+        },
+        {
+            "expr": "1.5",
+            "name": "W",
+            "value": "1.5"
+        },
+        {
+            "expr": "51.5",
+            "name": "bladder_radius",
+            "value": "51.5"
+        },
+        {
+            "expr": "0.8",
+            "name": "xfeed",
+            "value": "0.8"
+        },
+        {
+            "expr": "1",
+            "name": "b",
+            "value": "1"
+        },
+        {
+            "expr": "3",
+            "name": "a",
+            "value": "3"
+        },
+        {
+            "expr": "0.2",
+            "name": "y",
+            "value": "0.2"
+        },
+        {
+            "expr": "19.5",
+            "name": "Lt",
+            "value": "19.5"
+        },
+        {
+            "expr": "61.5",
+            "name": "muscle_radius",
+            "value": "61.5"
+        },
+        {
+            "expr": "91.5",
+            "name": "fat_radius",
+            "value": "91.5"
+        },
+        {
+            "expr": "3.5",
+            "name": "h_impl",
+            "value": "3.5"
+        },
+        {
+            "expr": "20",
+            "name": "u_impl",
+            "value": "20"
+        },
+        {
+            "expr": "12",
+            "name": "w_impl",
+            "value": "12"
+        },
+        {
+            "expr": "30",
+            "name": "Rchip",
+            "value": "30"
+        },
+        {
+            "expr": "L/2 + 1.5",
+            "name": "rmax_incapsbot",
+            "value": "15"
+        },
+        {
+            "expr": "7.5",
+            "name": "rmin_incapsbot",
+            "value": "7.5"
+        }
+    ],
+    "version": 1
+}

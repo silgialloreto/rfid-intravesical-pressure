@@ -1,0 +1,77 @@
+@CACHEFILEVERSION 2
+@DOUBLE
+-0.035#/2#
+-0.0175
+-0.125#/2#
+-0.0625
+-0.25#/2#
+-0.125
+-L/2# 
+-13.5
+-L/2# - 1#
+-14.5
+-W/2#
+-0.75
+-W/2#  -1# 
+-1.75
+-W/2# -2.049# + 0.8#
+-1.999
+-W/2#-2.049#
+-2.799
+-fat_radius
+-91.5
+-h_impl/2#
+-1
+-muscle_radius
+-61.5
+-xfeed/2#
+-0.125
+0.035#/2#
+0.0175
+0.125#/2#
+0.0625
+0.25#/2#
+0.125
+54.5# - 0.125#
+54.375
+L/2#
+13.5
+L/2#  + 1#
+14.5
+W/2#
+0.75
+W/2#  + 1#
+1.75
+bladder_radius
+51.5
+bladder_radius +0.035#
+51.535
+bladder_radius+1#
+52.5
+bladder_radius+4#
+55.5
+fat_radius
+91.5
+h_impl/2#
+1
+muscle_radius
+61.5
+rmax_incapsbot
+15
+rmax_incapsbot+0.2#
+15.2
+rmin_incapsbot
+7.5
+rmin_incapsbot+0.2#
+7.7
+skin_radius
+93.5
+urine_radius
+41.5
+xfeed/2#
+0.125
+xfeed/2# 
+0.125
+xfeed/2# + 0.25#
+0.375
+@LONG

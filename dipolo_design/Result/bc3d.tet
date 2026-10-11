@@ -1,0 +1,714 @@
+// Number 3D OBJECTS:
+// ^^^^^^^^^^^^^^^^^^
+42
+
+// Obj3D_ID, MediaCode (0=Iso3D,1=LossyIso3D,2=PEC,3=Aniso3D,4=LossyAniso3D,5=SurfaceImp)
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+0 0
+>> Material name:
+Vacuum
+
+1 1
+>> Material name:
+Polyimide (lossy)
+
+2 0
+>> Material name:
+air_0
+
+3 0
+>> Material name:
+air_0
+
+4 0
+>> Material name:
+air_0
+
+5 1
+>> Material name:
+Silicon
+
+6 0
+>> Material name:
+Forex
+
+7 0
+>> Material name:
+Vacuum
+
+8 1
+>> Material name:
+Urine/Air
+
+9 1
+>> Material name:
+Bladder
+
+10 1
+>> Material name:
+Muscle
+
+11 1
+>> Material name:
+Fat
+
+12 1
+>> Material name:
+Skin
+
+13 0
+>> Material name:
+air_0
+
+14 0
+>> Material name:
+air_0
+
+15 0
+>> Material name:
+air_0
+
+16 0
+>> Material name:
+air_0
+
+17 0
+>> Material name:
+air_0
+
+18 0
+>> Material name:
+air_0
+
+19 0
+>> Material name:
+air_0
+
+20 0
+>> Material name:
+air_0
+
+21 0
+>> Material name:
+air_0
+
+22 0
+>> Material name:
+air_0
+
+23 0
+>> Material name:
+air_0
+
+24 0
+>> Material name:
+air_0
+
+25 0
+>> Material name:
+air_0
+
+26 0
+>> Material name:
+air_0
+
+27 0
+>> Material name:
+air_0
+
+28 0
+>> Material name:
+air_0
+
+29 0
+>> Material name:
+air_0
+
+30 0
+>> Material name:
+air_0
+
+31 0
+>> Material name:
+air_0
+
+32 0
+>> Material name:
+air_0
+
+33 0
+>> Material name:
+air_0
+
+34 0
+>> Material name:
+air_0
+
+35 0
+>> Material name:
+air_0
+
+36 0
+>> Material name:
+air_0
+
+37 5
+>> Material name:
+Copper (annealed)_2
+
+38 5
+>> Material name:
+Copper (annealed)_2
+
+39 5
+>> Material name:
+Copper (annealed)_2
+
+40 5
+>> Material name:
+Copper (annealed)_1
+
+41 5
+>> Material name:
+Copper (annealed)_2
+
+// Number 2D OBJECTS:
+// ^^^^^^^^^^^^^^^^^^
+228
+
+// Obj2D_ID, BCCode (0=Reg,1=PEC,2=PMC,3=RHO,4=OHM,5=PORT,6=OPEN,7=EXPANDEDOPEN,8=PERIODIC,9=TANGENTIAL,10=NORMAL):
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+0 0
+
+1 7
+
+2 7
+
+3 7
+
+4 7
+
+5 7
+
+6 7
+
+7 7
+
+8 7
+
+9 7
+
+10 7
+
+11 7
+
+12 7
+
+13 7
+
+14 7
+
+15 7
+
+16 7
+
+17 7
+
+18 7
+
+19 7
+
+20 7
+
+21 7
+
+22 7
+
+23 7
+
+24 7
+
+25 0
+
+26 0
+
+27 7
+
+28 7
+
+29 0
+
+30 0
+
+31 7
+
+32 7
+
+33 0
+
+34 0
+
+35 7
+
+36 7
+
+37 0
+
+38 0
+
+39 7
+
+40 7
+
+41 0
+
+42 0
+
+43 7
+
+44 7
+
+45 0
+
+46 0
+
+47 7
+
+48 7
+
+49 0
+
+50 0
+
+51 7
+
+52 7
+
+53 0
+
+54 0
+
+55 7
+
+56 7
+
+57 0
+
+58 0
+
+59 7
+
+60 7
+
+61 0
+
+62 0
+
+63 7
+
+64 7
+
+65 0
+
+66 0
+
+67 7
+
+68 7
+
+69 0
+
+70 0
+
+71 7
+
+72 7
+
+73 0
+
+74 0
+
+75 0
+
+76 0
+
+77 7
+
+78 0
+
+79 0
+
+80 0
+
+81 0
+
+82 7
+
+83 0
+
+84 0
+
+85 0
+
+86 0
+
+87 7
+
+88 0
+
+89 0
+
+90 0
+
+91 0
+
+92 7
+
+93 0
+
+94 0
+
+95 0
+
+96 0
+
+97 7
+
+98 0
+
+99 0
+
+100 0
+
+101 0
+
+102 7
+
+103 0
+
+104 0
+
+105 0
+
+106 0
+
+107 0
+
+108 0
+
+109 0
+
+110 1
+
+111 1
+
+112 3
+Copper (annealed)_1
+
+113 3
+Copper (annealed)_1
+
+114 0
+
+115 3
+Copper (annealed)_1
+
+116 3
+Copper (annealed)_1
+
+117 3
+Copper (annealed)_1
+
+118 3
+Copper (annealed)_1
+
+119 3
+Copper (annealed)_1
+
+120 3
+Copper (annealed)_1
+
+121 3
+Copper (annealed)_1
+
+122 3
+Copper (annealed)_1
+
+123 3
+Copper (annealed)_1
+
+124 3
+Copper (annealed)_1
+
+125 3
+Copper (annealed)_1
+
+126 3
+Copper (annealed)_1
+
+127 3
+Copper (annealed)_1
+
+128 3
+Copper (annealed)_1
+
+129 3
+Copper (annealed)_1
+
+130 3
+Copper (annealed)_1
+
+131 3
+Copper (annealed)_1
+
+132 3
+Copper (annealed)_1
+
+133 3
+Copper (annealed)_1
+
+134 3
+Copper (annealed)_1
+
+135 3
+Copper (annealed)_1
+
+136 3
+Copper (annealed)_1
+
+137 3
+Copper (annealed)_1
+
+138 3
+Copper (annealed)_1
+
+139 3
+Copper (annealed)_1
+
+140 3
+Copper (annealed)_1
+
+141 3
+Copper (annealed)_1
+
+142 3
+Copper (annealed)_1
+
+143 3
+Copper (annealed)_1
+
+144 3
+Copper (annealed)_1
+
+145 0
+
+146 0
+
+147 0
+
+148 0
+
+149 0
+
+150 0
+
+151 0
+
+152 0
+
+153 0
+
+154 0
+
+155 0
+
+156 0
+
+157 0
+
+158 0
+
+159 0
+
+160 0
+
+161 0
+
+162 0
+
+163 0
+
+164 0
+
+165 0
+
+166 0
+
+167 0
+
+168 0
+
+169 0
+
+170 0
+
+171 0
+
+172 0
+
+173 0
+
+174 0
+
+175 0
+
+176 0
+
+177 3
+Copper (annealed)_2
+
+178 0
+
+179 3
+Copper (annealed)_2
+
+180 0
+
+181 3
+Copper (annealed)_2
+
+182 0
+
+183 0
+
+184 0
+
+185 0
+
+186 0
+
+187 0
+
+188 0
+
+189 0
+
+190 3
+Copper (annealed)_2
+
+191 3
+Copper (annealed)_2
+
+192 3
+Copper (annealed)_2
+
+193 3
+Copper (annealed)_2
+
+194 3
+Copper (annealed)_2
+
+195 3
+Copper (annealed)_2
+
+196 3
+Copper (annealed)_2
+
+197 3
+Copper (annealed)_2
+
+198 3
+Copper (annealed)_2
+
+199 3
+Copper (annealed)_2
+
+200 3
+Copper (annealed)_2
+
+201 3
+Copper (annealed)_2
+
+202 3
+Copper (annealed)_2
+
+203 3
+Copper (annealed)_2
+
+204 3
+Copper (annealed)_2
+
+205 3
+Copper (annealed)_2
+
+206 3
+Copper (annealed)_2
+
+207 3
+Copper (annealed)_2
+
+208 3
+Copper (annealed)_2
+
+209 3
+Copper (annealed)_2
+
+210 3
+Copper (annealed)_2
+
+211 3
+Copper (annealed)_2
+
+212 3
+Copper (annealed)_2
+
+213 0
+
+214 0
+
+215 0
+
+216 0
+
+217 0
+
+218 0
+
+219 0
+
+220 3
+Copper (annealed)_2
+
+221 3
+Copper (annealed)_2
+
+222 3
+Copper (annealed)_2
+
+223 3
+Copper (annealed)_2
+
+224 3
+Copper (annealed)_2
+
+225 3
+Copper (annealed)_2
+
+226 3
+Copper (annealed)_2
+
+227 3
+Copper (annealed)_2
+
+// Number 1D OBJECTS:
+// ^^^^^^^^^^^^^^^^^^
+3
+
+// Obj1D_ID, BCCode (0=Reg,1=PEC,2=PMC,3=PORT,4=Lumped):
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+0 0
+1 3
+1
+2 5
+2 + 2 -737 736
+

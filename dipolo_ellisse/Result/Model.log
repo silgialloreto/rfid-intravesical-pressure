@@ -1,0 +1,601 @@
+18/Jun/2025 11:17:22  The length ratio between the shortest and the longest model edges is 1:1143.
+                      Short model edges can be highlighted via Mesh:Mesh Control->Check Mesh->Check
+                      Model Edge Length.... (It may be advantageous to model the metallizations as
+                      infinitely thin sheets.) More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:45  *** Warning ***
+                      
+18/Jun/2025 11:17:45  `tbbmalloc_proxy` cannot replace memory allocation routines (status:-1):
+                      Success: free (ucrtbase.dll), byte pattern: <C7442410000000008B4424>
+                      Fail: _msize (ucrtbase.dll), byte pattern: <E9ABFFFFFFCCCCCCCCCCCC>
+                      The solver will continue with a reduced performance.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:45  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  MHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:45  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: expanded open
+                        Xmax: expanded open
+                      
+                        Ymin: expanded open
+                        Ymax: expanded open
+                      
+                        Zmin: expanded open
+                        Zmax: expanded open
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:45  Order settings: 
+                      
+                        Solver order   : 2nd (constant)
+                        Curved elements: up to order 3 (automatic)
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:45    Mesh time                :	23 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:46  
+                      ================================================================================
+                      Frequency Domain Solver calculation cycle started
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:46  Solver started at: 11:17 AM Wednesday, 18. June 2025 (ora legale Europa occidentale)
+                      
+                        Module:  Frequency Domain: S-Parameter (Win 64)
+                        Version: 2021.1 Release from 2020-11-10 (change 826605)
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:47    Calculation 1 of 1 (Frequency: 1200 MHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:48  The wavelength based mesh refinement has been applied to 4.8% of all mesh edges.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:50  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:17:51  Adaptive mesh refinement pass 1
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:18:02  Performing block excitation with block size 2 and 6 threads.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:19:26    Matrix setup time        :	3 s
+                        Solver setup             :	8 s
+                        Degrees of freedom       :	295776
+                        Number of mesh cells     :	46125
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.71811e-05
+                        Iterations               :	125
+                        Solver time              :	84 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:19:26    Stimulation port         :	2
+                        Accuracy                 :	6.21328e-05
+                        Iterations               :	110
+                        Solver time              :	76 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:19:28  18% of all mesh edges seem to be longer than expected. The adaptive mesh refinement's growth limitation will therefore 
+                      use 96329 instead of 36146 mesh cells as a reference.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:19:28  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:19:29  The wavelength based mesh refinement has been applied to 0.5% of all mesh edges.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:20:21  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:20:21  Some elements could not be snapped to the geometry. Please consider refining the initial mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:20:27  Adaptive mesh refinement pass 2
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:23:03    Matrix setup time        :	7 s
+                        Solver setup             :	8 s
+                        Degrees of freedom       :	344390
+                        Number of mesh cells     :	53651
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.93549e-05
+                        Iterations               :	244
+                        Solver time              :	141 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:23:03    Stimulation port         :	2
+                        Accuracy                 :	9.86941e-05
+                        Iterations               :	134
+                        Solver time              :	107 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:23:03    Delta calculation        
+18/Jun/2025 11:23:03    All S-Parameters         :	0.329736
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:23:03  The input reflection seems to be large at 1200 MHz. The adaptive mesh refinement at this sample will be stopped. A new 
+                      mesh adaptation frequency has been added at 950 MHz.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:23:05    Generating results       :	1 s
+                      
+                        Total time               :	318 s	 (= 0 h, 05 m, 18 s)
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:23:05    Calculation 2 of 2 (Frequency: 950 MHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:23:05  Adaptive mesh refinement pass 1
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:24:01    Matrix setup time        :	1 s
+                        Solver setup             :	1 s
+                        Degrees of freedom       :	344390
+                        Number of mesh cells     :	53651
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.36884e-05
+                        Iterations               :	230
+                        Solver time              :	54 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:24:01    Stimulation port         :	2
+                        Accuracy                 :	9.76627e-05
+                        Iterations               :	125
+                        Solver time              :	35 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:24:02  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:24:06  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:24:08  Adaptive mesh refinement pass 2
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:01    Matrix setup time        :	2 s
+                        Solver setup             :	2 s
+                        Degrees of freedom       :	382218
+                        Number of mesh cells     :	59432
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	6.45522e-05
+                        Iterations               :	201
+                        Solver time              :	49 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:01    Stimulation port         :	2
+                        Accuracy                 :	9.70964e-05
+                        Iterations               :	95
+                        Solver time              :	28 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:01    Delta calculation        
+18/Jun/2025 11:25:01    All S-Parameters         :	0.0664899
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:02  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:05  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:07  Adaptive mesh refinement pass 3
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:53    Matrix setup time        :	2 s
+                        Solver setup             :	3 s
+                        Degrees of freedom       :	430546
+                        Number of mesh cells     :	66740
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.545e-05
+                        Iterations               :	149
+                        Solver time              :	41 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:53    Stimulation port         :	2
+                        Accuracy                 :	8.78381e-05
+                        Iterations               :	58
+                        Solver time              :	20 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:54    Delta calculation        
+18/Jun/2025 11:25:54    All S-Parameters         :	0.0315729
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:54  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:25:58  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:26:00  Adaptive mesh refinement pass 4
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:26:35    Matrix setup time        :	3 s
+                        Solver setup             :	3 s
+                        Degrees of freedom       :	496298
+                        Number of mesh cells     :	76630
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.53377e-05
+                        Iterations               :	89
+                        Solver time              :	29 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:26:35    Stimulation port         :	2
+                        Accuracy                 :	8.18974e-05
+                        Iterations               :	43
+                        Solver time              :	17 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:26:35    Delta calculation        
+18/Jun/2025 11:26:35    All S-Parameters         :	0.0339455
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:26:36  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:26:41  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:26:44  Adaptive mesh refinement pass 5
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:27:25    Matrix setup time        :	3 s
+                        Solver setup             :	4 s
+                        Degrees of freedom       :	591512
+                        Number of mesh cells     :	90906
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.9046e-05
+                        Iterations               :	81
+                        Solver time              :	33 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:27:25    Stimulation port         :	2
+                        Accuracy                 :	7.12403e-05
+                        Iterations               :	35
+                        Solver time              :	17 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:27:25    Delta calculation        
+18/Jun/2025 11:27:25    All S-Parameters         :	0.0295582
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:27:26  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:27:32  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:27:35  Adaptive mesh refinement pass 6
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:28:13    Matrix setup time        :	5 s
+                        Solver setup             :	4 s
+                        Degrees of freedom       :	712728
+                        Number of mesh cells     :	109161
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.57004e-05
+                        Iterations               :	64
+                        Solver time              :	29 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:28:13    Stimulation port         :	2
+                        Accuracy                 :	4.70703e-05
+                        Iterations               :	34
+                        Solver time              :	19 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:28:13    Delta calculation        
+18/Jun/2025 11:28:13    All S-Parameters         :	0.027282
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:28:14  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:28:23  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:28:26  Adaptive mesh refinement pass 7
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:30:13    Matrix setup time        :	6 s
+                        Solver setup             :	16 s
+                        Degrees of freedom       :	885574
+                        Number of mesh cells     :	135364
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.0215e-05
+                        Iterations               :	49
+                        Solver time              :	84 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:30:13    Stimulation port         :	2
+                        Accuracy                 :	6.92601e-05
+                        Iterations               :	25
+                        Solver time              :	50 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:30:17    Delta calculation        
+18/Jun/2025 11:30:17    All S-Parameters         :	0.0307514
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:30:19  The quality of some tetrahedrons is low.  More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:33:44  For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:34:01  Adaptive mesh refinement pass 8
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:35:38    Matrix setup time        :	29 s
+                        Solver setup             :	22 s
+                        Degrees of freedom       :	1115978
+                        Number of mesh cells     :	170358
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.25294e-05
+                        Iterations               :	37
+                        Solver time              :	45 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:35:38    Stimulation port         :	2
+                        Accuracy                 :	5.40974e-05
+                        Iterations               :	30
+                        Solver time              :	40 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:35:39    Delta calculation        
+18/Jun/2025 11:35:39    All S-Parameters         :	0.0314551
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:35:39  *** Warning ***
+                      
+18/Jun/2025 11:35:39  Mesh adaptation terminated because the maximum number of passes is reached.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:35:41    Generating results       :	2 s
+                      
+                        Total time               :	756 s	 (= 0 h, 12 m, 36 s)
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:35:46    Calculation 1 (Frequency: 1200 MHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:36:22    Matrix setup time        :	4 s
+                        Solver setup             :	3 s
+                        Degrees of freedom       :	1115978
+                        Number of mesh cells     :	170358
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	8.95793e-05
+                        Iterations               :	34
+                        Solver time              :	29 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:36:22    Stimulation port         :	2
+                        Accuracy                 :	9.57489e-05
+                        Iterations               :	33
+                        Solver time              :	28 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:36:28    Generating results       :	6 s
+                      
+                        Total time               :	42 s
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:36:28    Calculation 3 (Frequency: 700 MHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:01    Matrix setup time        :	3 s
+                        Solver setup             :	3 s
+                        Degrees of freedom       :	1115978
+                        Number of mesh cells     :	170358
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.81451e-05
+                        Iterations               :	37
+                        Solver time              :	27 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:01    Stimulation port         :	2
+                        Accuracy                 :	7.09895e-05
+                        Iterations               :	24
+                        Solver time              :	20 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:07    Generating results       :	6 s
+                      
+                        Total time               :	39 s
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:07    Calculation 4 (Frequency: 1075 MHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:41    Matrix setup time        :	4 s
+                        Solver setup             :	2 s
+                        Degrees of freedom       :	1115978
+                        Number of mesh cells     :	170358
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	8.93958e-05
+                        Iterations               :	34
+                        Solver time              :	28 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:41    Stimulation port         :	2
+                        Accuracy                 :	8.842e-05
+                        Iterations               :	29
+                        Solver time              :	25 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:42    Total time               :	35 s
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:37:43    Calculation 5 (Frequency: 909.5 MHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:38:28    Matrix setup time        :	3 s
+                        Solver setup             :	3 s
+                        Degrees of freedom       :	1115978
+                        Number of mesh cells     :	170358
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.12987e-05
+                        Iterations               :	37
+                        Solver time              :	39 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:38:28    Stimulation port         :	2
+                        Accuracy                 :	8.86851e-05
+                        Iterations               :	28
+                        Solver time              :	25 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:38:30    Generating results       :	2 s
+                      
+                        Total time               :	47 s
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:38:31    Calculation 6 (Frequency: 995.5 MHz)
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:40:11    Matrix setup time        :	12 s
+                        Solver setup             :	9 s
+                        Degrees of freedom       :	1115978
+                        Number of mesh cells     :	170358
+                      
+                        Stimulation port         :	1
+                        Accuracy                 :	9.83759e-05
+                        Iterations               :	34
+                        Solver time              :	79 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:40:11    Stimulation port         :	2
+                        Accuracy                 :	8.76372e-05
+                        Iterations               :	29
+                        Solver time              :	69 s
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:40:13    Generating results       :	2 s
+                      
+                        Total time               :	102 s	 (= 0 h, 01 m, 42 s)
+                      
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:40:13  Finished the general purpose interpolative broadband frequency sweep:
+                      All broadband sweep convergence criteria have been satisfied after
+                      calculating 6 frequency samples:
+                      
+                        Broadband sweep error threshold value : 
+                                                                0.01 (All S-Parameters) 
+                        Number of error criterion checks      : 
+                                                                2 (All S-Parameters) 
+                        Minimum number of samples             : 3
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:40:14    Total Solver Time        :	1362 s	 (= 0 h, 22 m, 42 s)
+                      ================================================================================
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:40:14  Calculating remaining monitors.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:40:59    ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Solver start        21996                         7435148      7435148      
+                        Eq. system setup    2721248                       7300208      5679028      
+                        Eq. system solve    2721584                       7119560      4766972      
+                        Mesh refinement     2717544                       6896612      5855100      
+                        Solver run total    2721584                       7435152      4766972      
+                      
+                        Computer name       PC_Silvia
+                        ----------------------------------------------------------------------------
+                      
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:41:00  Running postprocessing.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:41:11  Postprocessing finished.
+                      
+                      ------------------------------------------------------------------------------
+18/Jun/2025 11:41:14  Creating parametric 1D results for Run ID 11
+                      
+                      ------------------------------------------------------------------------------

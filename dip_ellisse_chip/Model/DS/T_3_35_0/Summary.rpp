@@ -1,0 +1,83 @@
+10
+0
+0
+6
+Z2,1
+Z Parameter
+1
+1DC
+S-Parameters
+P
+ED10
+Z Parameter^+DS.rtp
+1
+Z2,1
+Z1,1
+Z Parameter
+1
+1DC
+S-Parameters
+P
+ED10
+Z Parameter^+DS.rtp
+1
+Z1,1
+Z2,2
+Z Parameter
+1
+1DC
+S-Parameters
+P
+ED10
+Z Parameter^+DS.rtp
+1
+Z2,2
+Z1,2
+Z Parameter
+1
+1DC
+S-Parameters
+P
+ED10
+Z Parameter^+DS.rtp
+1
+Z1,2
+Mix 1DC
+Mix Template Results
+1
+1DC
+General 1D
+P
+EP11
+Mix Template Results.rtp
+1
+Mix 1DC
+Mix 1DC_1
+Mix Template Results
+1
+1DC
+General 1D
+P
+EP11
+Mix Template Results.rtp
+1
+Mix 1DC_1
+18
+1:Tables\1D Results\Mix 1DC
+2:Unselected
+3:Tasks\Unselected
+4:Tasks\PP1\0D\Mix 0D
+5:Tasks\SPara1\S-Parameters\S1,1
+6:Tasks\PP1\1D\Mix 1DC
+7:Tasks\Mix 1DC_1
+8:Tasks\SPara1\S-Parameters\S2,2
+9:Tasks\Mix 1DC
+10:Tasks\SPara1\S-Parameters\S1,2
+11:Tasks\Mix 1DC_3
+12:Tasks\SPara1
+13:External Ports\1
+14:External Ports\2
+15:Tasks\Z1,1
+16:Tasks\Z2,2
+17:Tasks\Z2,1
+18:Tasks\Z1,2

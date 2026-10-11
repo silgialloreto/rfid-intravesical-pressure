@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.5" Seed="47" Grid="25">
+    <Block Id="1" ForeignId="461575983" Class="MWSSCHEM" ImageIndex="1">
+        <Size Height="375" Width="300"/>
+        <Pins Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="0" Port="1" BlockPosition="Right">
+                <Label>2</Label>
+            </Pin>
+            <Pin Index="2" Port="2" BlockPosition="Left">
+                <Label>3</Label>
+            </Pin>
+            <Pin Index="1" Port="3" BlockPosition="Left">
+                <Label>1'</Label>
+            </Pin>
+            <Pin Index="1" Port="4" BlockPosition="Right">
+                <Label>2'</Label>
+            </Pin>
+            <Pin Index="3" Port="5" BlockPosition="Left">
+                <Label>3'</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label="" Differential="3"/>
+                <Port Name="2" Label="" Differential="4"/>
+                <Port Name="3" Label="" Differential="5"/>
+                <Port Name="1'" Label=""/>
+                <Port Name="2'" Label=""/>
+                <Port Name="3'" Label=""/>
+            </Ports>
+        </Pins>
+        <Image FileName="../../3D/Model.dib" Scale="AutoFit"/>
+        <Pos X="175" Y="-12.500000000000014"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+    <Block Id="2" ForeignId="402539575" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Pin Index="0" Port="1" BlockPosition="Bottom"/>
+            <Ports>
+                <Port Name="" Label=""/>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-350" Y="-125"/>
+        <Label>1</Label>
+        <ToolTip>External Port 1</ToolTip>
+    </Block>
+    <Block Id="3" ForeignId="638790768" Class="EXTPORT" Flags="NotResizable">
+        <Size Height="50" Width="100"/>
+        <Pins ExtendedDistribution="1">
+            <Pin Index="0" Port="0" BlockPosition="Center"/>
+            <Pin Index="0" Port="1" BlockPosition="Bottom"/>
+            <Ports>
+                <Port Name="" Label=""/>
+                <Port Name="" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="600" Y="-175"/>
+        <Label>2</Label>
+        <ToolTip>External Port 2</ToolTip>
+    </Block>
+    <Link Id="5">
+        <Connection Pin="0" Ref="1" Type="Pin"/>
+        <Connection Pin="0" Ref="2" Type="Pin"/>
+        <Route>
+            <Pos X="5" Y="-125.00000000000001"/>
+            <Pos X="-145" Y="-125"/>
+            <Pos X="-300" Y="-125"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="6">
+        <Connection Pin="1" Ref="1" Type="Pin"/>
+        <Connection Pin="0" Ref="3" Type="Pin"/>
+        <Route>
+            <Pos X="345" Y="-125.00000000000001"/>
+            <Pos X="444.99999999999994" Y="-125.00000000000001"/>
+            <Pos X="444.99999999999994" Y="-175"/>
+            <Pos X="550" Y="-175"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="7">
+        <Connection Pin="1" Ref="2" Type="Pin"/>
+        <Connection Pin="3" Ref="1" Type="Pin"/>
+        <Route>
+            <Pos X="-350" Y="-80"/>
+            <Pos X="-350" Y="-50"/>
+            <Pos X="5" Y="-50"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="8">
+        <Connection Pin="4" Ref="1" Type="Pin"/>
+        <Connection Pin="1" Ref="3" Type="Pin"/>
+        <Route>
+            <Pos X="345" Y="-50"/>
+            <Pos X="600" Y="-50"/>
+            <Pos X="600" Y="-130"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="40">
+        <Connection Pin="5" Ref="1" Type="Pin"/>
+        <Connection Pin="1" Ref="47" Type="Pin"/>
+        <Route>
+            <Pos X="5" Y="100"/>
+            <Pos X="-100" Y="100"/>
+            <Pos X="-100" Y="175"/>
+            <Pos X="-205" Y="175"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Link Id="46">
+        <Connection Pin="2" Ref="1" Type="Pin"/>
+        <Connection Pin="0" Ref="47" Type="Pin"/>
+        <Route>
+            <Pos X="5" Y="25"/>
+            <Pos X="-400" Y="25"/>
+            <Pos X="-400" Y="175"/>
+            <Pos X="-395" Y="175"/>
+        </Route>
+        <Pos X="0" Y="0"/>
+    </Link>
+    <Block Id="47" ForeignId="108389361" Class="TS">
+        <Size Height="150" Width="150"/>
+        <Pins Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Pin Index="0" Port="1" BlockPosition="Right">
+                <Label>2</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+                <Port Name="2" Label=""/>
+            </Ports>
+        </Pins>
+        <Pos X="-300" Y="175"/>
+        <Label>LQW15AN82NG00.s2p</Label>
+        <ToolTip>TOUCHSTONE block TS1</ToolTip>
+    </Block>
+</SchematicTopology>
